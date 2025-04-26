@@ -2,3 +2,13 @@
 theme: jekyll-theme-minimal
 title: Hostanes's R&D Department
 description: An overview of my projects c:
+
+
+plugins:
+  - jekyll-paginate
+
+# Enable pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
