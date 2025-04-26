@@ -1,0 +1,84 @@
+/* Dark mode color palette */
+:root {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --link-color: #bb86fc;
+    --link-hover: #3700b3;
+    --code-bg: #1e1e1e;
+    --border-color: #333;
+    --header-bg: #1f1f1f;
+}
+
+/* Base styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Typography */
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+/* Layout */
+header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.post-preview {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.full-post {
+    margin-bottom: 2rem;
+}
+
+time {
+    display: block;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin: 0.5rem 0;
+}
+
+/* Code blocks */
+pre {
+    background-color: var(--code-bg);
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 4px;
+}
+
+code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    color: #aaa;
+}
